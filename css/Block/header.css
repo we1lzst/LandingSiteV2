@@ -68,3 +68,8 @@
 .btn:hover {
     opacity: 0.8;
 }
+
+.btn-big, a.btn-big {
+    min-height: 65px;
+    line-height: 65px;
+}

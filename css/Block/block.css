@@ -1,0 +1,39 @@
+.block {
+    margin-top: 169px;
+    margin-bottom: 51px;
+}
+
+.block-content {
+    display: flex;
+}
+
+.block-tittle p{
+    font-family: 'Lato';
+    font-weight: 700;
+    color: #424242;
+}
+
+.block-tittle h2 {
+    font-family: 'Georgia';
+    font-size: 50px;
+    color: #01996D;
+    max-width: 610px;
+    font-weight: bold;
+    line-height: 157%;
+}
+
+.block-text {
+    margin-left: 636px;
+}
+
+.block-text p{
+    max-width: 660px;
+}
+
+.block-cards {
+
+}
+
+.block-card {
+
+}
