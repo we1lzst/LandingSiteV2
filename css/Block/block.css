@@ -6,6 +6,9 @@
 .block-content {
     display: flex;
 }
+.block-tittle {
+    min-width: 500px;
+}
 
 .block-tittle p{
     font-family: 'Lato';
@@ -17,23 +20,74 @@
     font-family: 'Georgia';
     font-size: 50px;
     color: #01996D;
-    max-width: 610px;
+    max-width: 640px;
     font-weight: bold;
     line-height: 157%;
 }
 
 .block-text {
-    margin-left: 636px;
+    margin-left: 136px;
+    margin-top: 61px;
+    margin-bottom: 15px;
+    margin-right: 22px;
 }
 
 .block-text p{
-    max-width: 660px;
+    max-width: 710px;
+    line-height: 130%;
+    font-family: 'Lato';
+    font-weight: 500;
+    color: #424242;
 }
 
-.block-cards {
-
+.block-cards{
+    padding-top: 52px;
+    display: flex;
 }
 
-.block-card {
+.block-card-img {
+    border-radius: 10px;
+}
 
+.one {
+    margin-right: 95px;
+}
+
+.two {
+    margin-right: 95px;
+}
+
+.block-card h3{
+    font-family: 'Georgia';
+    font-size: 30px;
+    line-height: 150%;
+    padding-top: 48px;
+    padding-left: 80px;
+    position: absolute;
+    font-weight: 800;
+}
+
+.block-card p{
+    padding-top: 43px;
+    padding-bottom: 60px;
+    font-family: 'Lato';
+    line-height: 150%;
+    max-width: 450px;
+}
+
+
+.two {
+    padding-top: 230px;
+}
+
+.three {
+    padding-top: 20px;
+}
+
+.three p{
+    max-width: 400px;
+}
+
+.three h3{
+    padding-left: 115px;
 }

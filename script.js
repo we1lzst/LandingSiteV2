@@ -1,9 +1,8 @@
-function sign() {
-    let block = document.querySelector('.header-login').children[0];
-    console.log(block)
-    block.addEventListener('click', () => {
-        alert("я не сделал форму((((")
-
+function btnPlay() {
+    let btn = document.querySelector('.video-block-btn');
+    btn.addEventListener("mouseover", () => {
+        btn.style.visibility = 'hidden'
     })
 }
-sign();
+
+btnPlay();
